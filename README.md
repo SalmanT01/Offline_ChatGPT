@@ -49,13 +49,13 @@ ollama pull llama3
 
 ## Running the Assistant
 ```bash
-python jarvis.py
+python jarvis2.0.py
 ```
 
 ## Project Structure
 ```bash
 Jarvis-LocalAI/
-├── jarvis.py              # Main script
+├── jarvis2.0.py           # Main script
 ├── requirements.txt       # Python dependencies
 ├── README.md              # Project info
 ├── assets/                # Optional audio/logo/images

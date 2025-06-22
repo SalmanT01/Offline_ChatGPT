@@ -27,7 +27,37 @@ A voice-controlled personal assistant using local LLM (LLlama3 suitable for GPU 
 # Clone the repo
 git clone https://github.com/yourusername/Jarvis-LocalAI.git
 cd Jarvis-LocalAI
+```
 
-# Install dependencies
+## Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
+## Install and run Ollama
+
+Download and install Ollama from https://ollama.com/download
+tinyllama (If no GPU)
+llama3 (GPU Required)
+more LLM models options also available. Need to Edit the script
+
+Open terminal and run:
+```bash
+ollama pull tinyllama 
+ollama pull llama3 
+```
+
+## Running the Assistant
+```bash
+python jarvis.py
+```
+
+## Project Structure
+```bash
+Jarvis-LocalAI/
+├── jarvis.py              # Main script
+├── requirements.txt       # Python dependencies
+├── README.md              # Project info
+├── assets/                # Optional audio/logo/images
+└── .gitignore             # Python cache & env ignores
+```

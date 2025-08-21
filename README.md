@@ -25,8 +25,8 @@ A voice-controlled personal assistant using local LLM (LLlama3 suitable for GPU 
 
 ```bash
 # Clone the repo
-git clone https://github.com/yourusername/Jarvis-LocalAI.git
-cd Jarvis-LocalAI
+git clone https://github.com/SalmanT01/Offline_ChatGPT.git
+cd Offline_ChatGPT
 ```
 
 ## Install dependencies
